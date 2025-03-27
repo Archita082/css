@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        body
+        {
+            background-color: rgba(1, 19, 12, 0.356);
+            padding: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: rgba(63, 3, 53, 0.541);
+        }
+        a:hover {
+            color: rgba(7, 65, 75, 0.527);      /* changes color when hovered */
+            font-size: 2em;    /* increases font size when hovered */
+        }
+        li:nth-child(odd) {
+            background-color: rgba(68, 166, 179, 0.411);  /* style odd items */
+        }
+        li:nth-child(even) {
+            background-color: baby rgba(170, 22, 163, 0.486);  /* style even list items */
+        }
+        p::before {
+            content: "Note: ";  /* inserts 'Note' before the paragraph text */
+            font-weight: bolder;
+        }
+        a:link
+        {
+            color: rgba(77, 8, 8, 0.342);
+        }
+        a:active
+        {
+            color: rgba(5, 77, 41, 0.363);
+        }
+        a:visited {
+            color: rgba(2, 31, 32, 0.192);
+        }
+        
+    </style>
+<body>
+    <a href="#">Goodbye Beautiful!</a>
+    <ul>
+        <li>Option A</li>
+        <li>Option B</li>
+        <li>Option C</li>
+        <li>Option D</li>
+        <li>Option E</li>
+    </ul>
+    <p>
+        The term "blue veil" might describe the blue color of the ocean as seen from above or the way the ocean can appear to have a veil-like effect when the sunlight passes through water, creating a sense of depth and mystery. The deeper you go into the ocean, the more intense and rich the blue appears, which can be described as a "veil" that covers the underwater world, adding an element of beauty or hidden secrets beneath the surface.
+    </p>
+    
+</body>
+</html>
